@@ -9,30 +9,32 @@ body{
 
 /* reusable css */
 
-/* head-section */
+/* !head-section */
 .header-section{
     background-image: url(/imgs/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header-section__inner-container{
+    height: 100vh;
 }
 
 .header-section__text-container{
+    color: white;
     text-align: center;
-    color: white;
-  
+ 
+}
 
+button{  
+    border: 2px solid yellow;
+    
+}
+.button--custom:hover{
+text-decoration: none;
 }
 
 
-button{
-    border: 1px solid yellow;
-    width: 170px;
-    color: white;
-    text-decoration: none;
-}
-
-
-/* head-section */
+/* ! head-section */
