@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* reusable css */
+
+
+/* reusable css */
+
+/* head-section */
+.header-section{
+    background-image: url(/imgs/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.header-section__text-container{
+    text-align: center;
+    color: white;
+  
+
+}
+
+
+button{
+    border: 1px solid yellow;
+    width: 170px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* head-section */
