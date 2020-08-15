@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* reusable css */
+
+
+/* reusable css */
+
+/* !head-section */
+.header-section{
+    background-image: url(/imgs/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header-section__inner-container{
+    height: 100vh;
+}
+
+.header-section__text-container{
+    color: white;
+    text-align: center;
+ 
+}
+
+button{  
+    border: 2px solid yellow;
+    
+}
+.button--custom:hover{
+text-decoration: none;
+}
+
+
+/* ! head-section */
